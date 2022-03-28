@@ -1,16 +1,8 @@
 import json
 import os
-import base64
 import random
 
-from email.mime.text import MIMEText
-from http import server
 import smtplib
-from sys import argv
-from urllib.error import HTTPError
-
-from googleapiclient.discovery import build
-from google.oauth2 import service_account
 
 import argparse
 from dotenv import load_dotenv
