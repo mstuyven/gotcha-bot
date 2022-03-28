@@ -58,6 +58,13 @@ Subject: {SUBJECT}{' (TEST)' if args.test else ''}
 Dag {name}
 
 Gotcha is begonnen! Jouw slachtoffer is {target}.
+
+Even kort de spelregels:
+- Je moet je slachtoffer vermoorden door hem/haar een kusje op het aangezicht te geven
+- Hierna geeft het slachtoffer zijn/haar naam door aan jou en krijg je dus een nieuw slachtoffer.
+- Er mogen geen getuigen zijn bij het vermoorden.
+- De persoon moet bij bewustzijn zijn wanneer je hem/haar vermoordt, m.a.w. niet tijdens het slapen.
+- De laatste die overblijft is gewonnen.
 {f'{NL}Dit is een test, je mag dit bericht negeren.{NL}' if args.test else ''}
 - {BOT_NAME}
 """
